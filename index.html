@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue</title>
+</head>
+
+<body>
+
+</body>
+<div id="app">
+    <hello name="World"></hello>
+</div>
+
+<!--
+    https://vuejsdevelopers.com/2017/09/24/vue-js-single-file-javascript-components/
+-->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script type="module" src="js/hello.js"></script>
+<script type="module" src="js/index.js"></script>
+<script nomodule>
+    document.getElementById("app").innerHTML = "Your browser doesn't support JavaScript modules :(";
+</script>
+
+</html>
