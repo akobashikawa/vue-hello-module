@@ -1,6 +1,6 @@
-# Vue Hello using js modules
+# Vue Hello using ES modules
 
-Simple hello component using js modules
+Simple hello component using ES js
 
 ## References
 - [Goodbye webpack: Building Vue.js Applications Without webpack](https://markus.oberlehner.net/blog/goodbye-webpack-building-vue-applications-without-webpack/)
